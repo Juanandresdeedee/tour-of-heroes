@@ -8,7 +8,10 @@ import { VillanosComponent } from './villanos/villanos.component';
 import { AmigosComponent } from './amigos/amigos.component';
 import { NavComponent } from './nav/nav.component';
 import { Routes } from '@angular/router';
-
+import { MatButtonModule } from '@angular/material/button';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatCardModule} from '@angular/material/card';
 const routes: Routes = [
   { path:'',component: HeroesComponent },
   { path:'amigos', component: AmigosComponent },
@@ -27,7 +30,10 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatButtonModule,
+    MatCardModule,
+    BrowserAnimationsModule,MatCheckboxModule
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

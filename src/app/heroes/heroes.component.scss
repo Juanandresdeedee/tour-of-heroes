@@ -1,30 +1,77 @@
-header {
-    background: #7700ff;
-    
-    .logo {
-        font-weight: bold;
+body {
+  background: steelblue;
+  margin: 8em;
+  padding: 12em;
+  top: 0;
 
-    }
-
-    nav {
-        justify-self: right;
-     ul {
-         list-style-type: none;
-         margin: 0; padding: 0;
-
-         li {
-             float: left;
-
-             a {
-                 padding: 1.5em;
-                 text-transform: uppercase;
-                 font-size: .8em;
-
-                 &:hover {
-                     background: #8e2bff;
-                 }
-             }
-          }
-        }
-    }
+ 
+  
 }
+
+
+
+section {
+  background: rgb(246, 246, 168);
+  border: 2px dashed rgb(12, 2, 3);
+  padding: 1em;
+  padding-left: 80px;
+  margin: auto;
+  width: 170%;
+  height: 80%;
+  top: 1.5px;
+  left: 0;
+  margin-top: 1.5em;
+  
+  
+  
+  
+
+}
+
+  
+.main-container {
+    
+  border: 3px solid rgb(7, 12, 9);
+  width: 50vw;
+  display: flex;
+  gap: 20px;
+  height: 300px;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1.5em;
+   
+}
+
+
+
+
+
+
+
+
+.dos {
+  background:tomato;
+  top:  10px;
+  width: 50%;
+  height: 30%;
+ 
+}
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
